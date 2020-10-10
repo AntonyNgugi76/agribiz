@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Goodang_Android_1.1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/Goodang_Android_1.1.0.iml" group="Goodang_Android_1.1.0" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Inventory.iml" filepath="$PROJECT_DIR$/.idea/modules/Inventory.iml" group="Inventory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Inventory/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/textfieldboxes/textfieldboxes.iml" filepath="$PROJECT_DIR$/.idea/modules/textfieldboxes/textfieldboxes.iml" group="Inventory/textfieldboxes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxing-android-embedded/zxing-android-embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/zxing-android-embedded/zxing-android-embedded.iml" group="Inventory/zxing-android-embedded" />
+    </modules>
+  </component>
+</project>

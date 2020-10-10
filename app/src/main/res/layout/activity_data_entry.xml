@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.DataEntry">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="30dp"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="New Product Entry">
+
+        </TextView>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                style="@style/Widget.Design.TextInputLayout"
+                android:padding="25dp"
+                android:gravity="center">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Category"
+                style="@style/Widget.Design.TextInputLayout"
+                android:padding="25dp"
+                android:gravity="center"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product SubCategory"
+                style="@style/Widget.Design.TextInputLayout"
+                android:padding="25dp"
+                android:gravity="center"></EditText>
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/avi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                app:indicatorName="BallPulseIndicator"
+                app:indicatorColor="@color/colorPrimary"
+            />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Capacity"
+                style="@style/Widget.Design.TextInputLayout"
+                android:padding="25dp"
+                android:gravity="center"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                style="@style/Widget.Design.TextInputLayout"
+                android:padding="25dp"
+                android:gravity="center"></EditText>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_county"
+                    android:layout_gravity="center"/>
+                <Spinner
+                    android:id="@+id/county"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/buttonsubt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Submit"></Button>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

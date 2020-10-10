@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: me.shaohui.advancedluban:library:1.3.5@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.5.aar/31695e4860a5bad26cec426a3e6f733d/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.5.aar/31695e4860a5bad26cec426a3e6f733d/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.5.aar/31695e4860a5bad26cec426a3e6f733d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.5.aar/31695e4860a5bad26cec426a3e6f733d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.shaohui.advancedluban/library/1.3.5/53ec4b21df914d36091e4dff44b7ef86f44e8a43/library-1.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
